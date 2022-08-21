@@ -9,3 +9,5 @@ Este trabalho tem por objetivo criar três artefatos (caso01, caso02 e caso03).
 - caso02: Vamos ter dois aplicativos produtores (usando a biblioteca Faker) é um aplicativo consumidor (usando a biblioteca Pysaprk). 
 
 - caso03: Vamos generalizar o caso02 para n produtores e vamos usar como intermediário entre os produtores e o consumidor o Apache Kafka.
+
+Para cada artefato vai existir uma pasta nesse repositório. Dentro de cada pasta vai se encontrar as informações de como executar o artefato.  
