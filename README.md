@@ -2,12 +2,10 @@
 
 ## [PoC] 
 
-Este trabalho tem por objetivo criar três artefatos (caso01, caso02 e caso03).
+Este trabalho tem por objetivo criar dois artefatos: Batch e Streaming.
 
-- caso01: Vão ser criados dois aplicativos um produtor (usando a biblioteca Faker) e um segundo aplicativo consumidor (via streaming usando a biblioteca PySpark) os dados gerados pelo primeiro aplicativo.
+- Batch: Varias lojas registram vendas durante um periodo de tempo e carregam em um ambiente temporario. Os dados ficam nesse ambiente temporario por um periodo arbitrario de tempo. Nesse periodo um processo spark busca esses dados e os processa, para gerar um dashboard.
 
-- caso02: Vamos ter dois aplicativos produtores (usando a biblioteca Faker) é um aplicativo consumidor (usando a biblioteca Pysaprk). 
+- Streaming: Varias lojas registram vendas e transmitem esse venda para o kafka, um processo spark conectado ao kafka consome esses dados e o processa para gerar um dashoard com informações sobre as vendas. 
 
-- caso03: Vamos generalizar o caso02 para n produtores e vamos usar como intermediário entre os produtores e o consumidor o Apache Kafka.
-
-Para cada artefato vai existir uma pasta nesse repositório. Dentro de cada pasta vai se encontrar as informações de como executar o artefato.  
+Para cada artefato vai existir uma pasta neste repositório. Dentro de cada pasta vai se encontrar as informações de como executar o artefato.  
